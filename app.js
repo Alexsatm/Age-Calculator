@@ -5,14 +5,17 @@ const calculateAge = () => {
     //дата день рождения
     let birthDate = new Date(userInput.value)
 
-    let d1 = birthDate.getDate()
+    let d1 = birthDate.getDate();
     let m1 = birthDate.getMonth() + 1;
-    let y1 = birthDate.getFullYear()
+    let y1 = birthDate.getFullYear();
 
     //сегодняшная дата
     let today = new Date()
 
-    let d2 = today.getDate()
-    let m2 = today.getMonth() + 1
-    let y2 = today.getFullYear()
+    let d2 = today.getDate();
+    let m2 = today.getMonth() + 1;
+    let y2 = today.getFullYear();
+
+    //будем хранить разницу год, месяц, дату
+    let d3, m3, y3;
 }
