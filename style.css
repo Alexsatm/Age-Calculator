@@ -58,7 +58,6 @@
     cursor:  pointer;
 }
 
-
 .input-box input[type="date"]::-webkit-calendar-picker-indicator {
     top: 0;
     right: 0;

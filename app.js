@@ -1,5 +1,6 @@
-const userInput = document.getElementById('date')
-userInput.max = new Date().toISOString().split('T')[0]
+const userInput = document.getElementById('date');
+userInput.max = new Date().toISOString().split('T')[0];
+let result = document.getElementById('result');
 
 const calculateAge = () => {
     //дата день рождения
@@ -39,6 +40,8 @@ const calculateAge = () => {
         m3 = 11;
         y3--
     }
+
+    result.innerHTML = `You are ${y3} years, ${m3} months and ${d3} days old `;
 }
 
 function getDaysInMonth() {
